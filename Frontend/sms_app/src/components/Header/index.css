@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+.header-inner{
+    display: flex;
+    background-color: black;
+    color: #fff;
+    padding: 5px;
+    font-size: 10px;
+    font-family: 'Roboto';
+    cursor: pointer;
+    align-items: center;
+}
+.action-buttons{
+    display: flex;
+    gap: 5px;
+}
+.action-btns{
+    font-size: 12px;
+}
+.heading{
+    font-size: 30px;
+    font-family: "RaleWay";
+    font-weight: 600;
+}

@@ -1,0 +1,40 @@
+*{
+    font-family: "Roboto";
+}
+.modal-outer-container{
+    width: 100%;
+}
+.modal-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid red;
+    padding: 25px;
+    max-width: 50vw;
+}
+.sms-form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 5px;
+    width: 100%;
+}
+.btn-studentSubmit{
+    padding: 2px 5px;
+    color: #fff;
+    background-color: orange;
+    border: none;
+}
+input{
+    box-sizing: border-box;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.btn-studentclose{
+    padding: 2px 5px;
+    color: #fff;
+    background-color:red;
+    border: none;
+}
